@@ -1,0 +1,236 @@
+{
+    "tests": [
+      {
+        "name": "ArrayOps - findMissingInt Test 1 (Input: {0,1,2,3,4,6})",
+        "setup": "javac TesterArrayOps.java",
+        "run": "java TesterArrayOps findMissingInt 1",
+        "input": "",
+        "output": "5",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 3
+      },
+      {
+        "name": "ArrayOps - findMissingInt Test 2 (Input: {2,3,1})",
+        "setup": "javac TesterArrayOps.java",
+        "run": "java TesterArrayOps findMissingInt 2",
+        "input": "",
+        "output": "0",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 3
+      },
+      {
+        "name": "ArrayOps - findMissingInt Test 3 (Input: {0})",
+        "setup": "javac TesterArrayOps.java",
+        "run": "java TesterArrayOps findMissingInt 3",
+        "input": "",
+        "output": "1",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 3
+      },
+      {
+        "name": "ArrayOps - secondMaxValue Test 1 (Input: {1,2,3,4,5})",
+        "setup": "javac TesterArrayOps.java",
+        "run": "java TesterArrayOps secondMaxValue 1",
+        "input": "",
+        "output": "4",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 3
+      },
+      {
+        "name": "ArrayOps - secondMaxValue Test 2 (Input: {2,8,3,7,8})",
+        "setup": "javac TesterArrayOps.java",
+        "run": "java TesterArrayOps secondMaxValue 2",
+        "input": "",
+        "output": "8",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 3
+      },
+      {
+        "name": "ArrayOps - secondMaxValue Test 3 (Input: {1,-2,3,-4,5})",
+        "setup": "javac TesterArrayOps.java",
+        "run": "java TesterArrayOps secondMaxValue 3",
+        "input": "",
+        "output": "3",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 3
+      },
+      {
+        "name": "ArrayOps - containsTheSameElements Test 1 (Input: {1,2,3,4,5}, {1,2,3,4,5})",
+        "setup": "javac TesterArrayOps.java",
+        "run": "java TesterArrayOps containsTheSameElements 1",
+        "input": "",
+        "output": "true",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+      {
+        "name": "ArrayOps - containsTheSameElements Test 2 (Input: {2,2,3,7,8,3,2}, {8,2,7,7,3})",
+        "setup": "javac TesterArrayOps.java",
+        "run": "java TesterArrayOps containsTheSameElements 2",
+        "input": "",
+        "output": "true",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+      {
+        "name": "ArrayOps - containsTheSameElements Test 3 (Input: {1,2,3,-4,5}, {1,3,-4,5})",
+        "setup": "javac TesterArrayOps.java",
+        "run": "java TesterArrayOps containsTheSameElements 3",
+        "input": "",
+        "output": "false",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+      {
+        "name": "ArrayOps - isSorted Test 1 (Input: {1,2,3})",
+        "setup": "javac TesterArrayOps.java",
+        "run": "java TesterArrayOps isSorted 1",
+        "input": "",
+        "output": "true",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+      {
+        "name": "ArrayOps - isSorted Test 2 (Input: {3,2,1})",
+        "setup": "javac TesterArrayOps.java",
+        "run": "java TesterArrayOps isSorted 2",
+        "input": "",
+        "output": "true",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+      {
+        "name": "ArrayOps - isSorted Test 3 (Input: {1,-2,3,4})",
+        "setup": "javac TesterArrayOps.java",
+        "run": "java TesterArrayOps isSorted 3",
+        "input": "",
+        "output": "false",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+  
+      {
+        "name": "StringOps - capVowelsLowRest Test 1 (Input: \"Hello World\")",
+        "setup": "javac TesterStringOps.java",
+        "run": "java TesterStringOps capVowelsLowRest 1",
+        "input": "",
+        "output": "hEllO wOrld",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+      {
+        "name": "StringOps - capVowelsLowRest Test 2 (Input: \"One two tHRee world\")",
+        "setup": "javac TesterStringOps.java",
+        "run": "java TesterStringOps capVowelsLowRest 2",
+        "input": "",
+        "output": "OnE twO thrEE wOrld",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+      {
+        "name": "StringOps - capVowelsLowRest Test 3 (Input: \"vowels are fun\")",
+        "setup": "javac TesterStringOps.java",
+        "run": "java TesterStringOps capVowelsLowRest 3",
+        "input": "",
+        "output": "vOwEls ArE fUn",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+      {
+        "name": "StringOps - camelCase Test 1 (Input: \"Hello World\")",
+        "setup": "javac TesterStringOps.java",
+        "run": "java TesterStringOps camelCase 1",
+        "input": "",
+        "output": "helloWorld",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+      {
+        "name": "StringOps - camelCase Test 2 (Input: \"HELLO   world\")",
+        "setup": "javac TesterStringOps.java",
+        "run": "java TesterStringOps camelCase 2",
+        "input": "",
+        "output": "helloWorld",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+      {
+        "name": "StringOps - camelCase Test 3 (Input: \" tWo    wordS\")",
+        "setup": "javac TesterStringOps.java",
+        "run": "java TesterStringOps camelCase 3",
+        "input": "",
+        "output": "twoWords",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+      {
+        "name": "StringOps - allIndexOf Test 1 (Input: \"Hello world\", 'l')",
+        "setup": "javac TesterStringOps.java",
+        "run": "java TesterStringOps allIndexOf 1",
+        "input": "",
+        "output": "[2, 3, 9]",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "StringOps - allIndexOf Test 2 (Input: \"Hello worLd\", 'l')",
+        "setup": "javac TesterStringOps.java",
+        "run": "java TesterStringOps allIndexOf 2",
+        "input": "",
+        "output": "[2, 3]",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "StringOps - allIndexOf Test 3 (Input: \"Hello world\", 'o')",
+        "setup": "javac TesterStringOps.java",
+        "run": "java TesterStringOps allIndexOf 3",
+        "input": "",
+        "output": "[4, 7]",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "StringOps - allIndexOf Test 4 (Input: \"Hello world\", ' ')",
+        "setup": "javac TesterStringOps.java",
+        "run": "java TesterStringOps allIndexOf 4",
+        "input": "",
+        "output": "[5]",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      },
+      {
+        "name": "StringOps - allIndexOf Test 5 (Input: \"MMMM\", 'M')",
+        "setup": "javac TesterStringOps.java",
+        "run": "java TesterStringOps allIndexOf 5",
+        "input": "",
+        "output": "[0, 1, 2, 3]",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      }
+    ]
+  }
+  
